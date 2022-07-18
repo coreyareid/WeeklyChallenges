@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pYjx0U7Lg/SeU5OYjMS9GXwUZBVwkG4xttgIcCiSUOOQz09iEi8bnYXi4IkYRy3x5YQIwqmKWuXOzz8gu92Y9g==",
+  "dgSpecHash": "S5UPTIeT43ZYPzXVjunowP6RQASXCUAXMm8iZuGvU3xZ1oq8yEOnTXQjDk/WQvr/1ML2Igk7yg51Ri8tZN430w==",
   "success": true,
   "projectFilePath": "/Users/coreyareid/Desktop/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
   "expectedPackageFiles": [
     "/Users/coreyareid/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/Users/coreyareid/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.26/microsoft.netcore.app.host.osx-x64.3.1.26.nupkg.sha512",
+    "/Users/coreyareid/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.27/microsoft.netcore.app.host.osx-x64.3.1.27.nupkg.sha512",
     "/Users/coreyareid/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
