@@ -91,32 +91,24 @@ namespace ChallengesWithTestsMark8
 
         public double AverageEvens(int[] numbers)
         {
-            if (numbers == null)
+            List<int> evenNums = new List<int>();
+            foreach (int number in numbers)
             {
-                return 0;
-            }
-
-            var evensList = new List<double>();
-            double sum = 0;
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] % 2 == 0)
+                if (number % 2 == 0)
                 {
-                    evensList.Add(numbers[i]);
+                    evenNums.Add(number);
                 }
             }
-
-            for (int i = 0; i < evensList.Count; i++)
-            {
-                sum += evensList[i];
-            }
-
-            if (evensList.Count == 0)
+            if (numbers == null || evenNums == null)
             {
                 return 0;
             }
 
-            return sum / evensList.Count;
+            if (evenNums.Count == 0)
+            {
+                return 0;
+            }
+            return evenNums.Average();
         }
 
         public int Factorial(int number)
